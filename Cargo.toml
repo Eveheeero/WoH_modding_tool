@@ -1,0 +1,12 @@
+[package]
+name = "woh_modding_tool"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.26.2"
+image = "0.24.9"
+weezl = "^0.1.8"
+tokio = { version = "1.36.0", features = ["full"] }
+tracing = { version = "0.1.40", features = ["release_max_level_info", "max_level_debug"] }
+tracing-subscriber = "0.3.18"
